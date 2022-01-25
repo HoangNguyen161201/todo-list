@@ -50,7 +50,7 @@ export default function About() {
                         </Text>
                         <VStack marginBottom={5} space={4}>
                             <TouchableOpacity onPress={() => {
-                                openInfor('http://youtube.com')
+                                openInfor('hoangdev161201@gmail.com')
                             }}>
                                 <HStack space={4} alignItems={'center'}>
                                     <AntDesign name="google" size={24} color={bgScheme} />
@@ -61,7 +61,7 @@ export default function About() {
                             </TouchableOpacity>
 
                             <TouchableOpacity onPress={() => {
-                                openInfor('http://youtube.com')
+                                openInfor('https://www.facebook.com/hoang.nguyenquang.395454')
                             }}>
                                 <HStack space={4} alignItems={'center'}>
                                     <AntDesign name="facebook-square" size={24} color={bgScheme} />
@@ -72,7 +72,7 @@ export default function About() {
                             </TouchableOpacity>
 
                             <TouchableOpacity onPress={() => {
-                                openInfor('http://youtube.com')
+                                openInfor('https://github.com/HoangNguyen161201')
                             }}>
                                 <HStack space={4} alignItems={'center'}>
                                     <AntDesign name="github" size={24} color={bgScheme} />
